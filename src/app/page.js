@@ -2,6 +2,12 @@ import {BannerSlider } from "@/components/BannerSlider";
 
 export default function Home(){
   return(
-    <BannerSlider/>
-  )
+    <>
+      <BannerSlider/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    </>
+  );
 }
