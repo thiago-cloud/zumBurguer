@@ -47,7 +47,7 @@ body{
 }
 
 .banner-slider .swiper-slide-active .info.ml-auto{
-    right:0px;
+    right:-50px;
     opacity: 1;
 }
 
@@ -91,4 +91,8 @@ body{
     color: #000 !important;
     font-size: 17px !important;
     opacity: 0.8;
+}
+
+.banner-slider .swiper-pagination-bullet-active{
+    background-color:#fff !important;
 }

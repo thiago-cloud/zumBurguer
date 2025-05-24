@@ -1,6 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
+import Header from '@/components/Header'; // ou o caminho correto para o seu componente Header
 import { ThemeProvider } from "@/context/ThemeProvider";
 
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <ThemeProvider>
+          <Header/>
           {children}
         </ThemeProvider>
         
