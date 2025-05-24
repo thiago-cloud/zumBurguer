@@ -7,9 +7,10 @@ import{ Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 
 // import required modules
-import {Autoplay, Navigation, Pagination } from 'swiper/modules';
+import {Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules';
 
 // import slide1 from '../../assets/images/slide1.jpg'
 
@@ -30,7 +31,8 @@ export const BannerSlider = () => {
                 delay: 2500,
                 disableOnInteraction: false,
                 }} 
-                modules={[Autoplay, Pagination, Navigation]} 
+                effect={'fade'}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]} 
                 className="banner-slider w-[100%] h-full h-fit"
             >
                 <SwiperSlide>
