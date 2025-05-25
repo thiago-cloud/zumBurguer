@@ -46,11 +46,6 @@ export default function Header() {
                             </li>
                             <li>
                                 <Link href="/">
-                                    sobre
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/">
                                     menu
                                 </Link>
                             </li>
@@ -66,18 +61,23 @@ export default function Header() {
                             </li>
                             <li>
                                 <Link href="/">
+                                    sobre
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/">
                                     contato
                                 </Link>
                             </li>
                         </ul>
                     </nav>
-                    <span className="text-y number flex items-center">
+                    {/*<span className="text-y number flex items-center">
                         <FaWhatsapp className="text-y" /> &nbsp; 81 98753-1748
-                    </span>
+                    </span>*/}
                     <Link href="/cart" className="relative cartTab">
                         <IoCartOutline /><span className="flex items-center justify-center rounded-full">0</span>
                     </Link>
-                    <Button className="btn-border">
+                    <Button className="btn-white rounded-full ml-3">
                         Entrar
                     </Button>
                 </div>
