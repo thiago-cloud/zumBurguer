@@ -4,6 +4,7 @@ import { ProductItemV1 } from '@/components/Product_Item_V1';
 
 import Image from "next/image";
 import { useState } from 'react';
+import Button from '@mui/material/Button';
 
 export default function Home(){
 
@@ -44,6 +45,61 @@ export default function Home(){
               <ProductItemV1/>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="section2 text-center">
+        <div className="container">
+          <div className="info w-75 m-auto">
+            <h2 className="text-brown mb-4">
+              O sabor do hambúrguer fica melhor quando <br/> você come com sua família
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book.
+            </p>
+            <Button className="btn-red btn-lg no-radius">
+              Ver Mais
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="section3 text-center bg-brown py-5 bg-y">
+        <div className="container flex items-center justify-between">
+          <div className="box p-5 w-[33%] text-center">
+            <Image src="/recipe-book.png" width={100} height={100} alt="icon" className="m-auto"/>
+            <h3 className="mt-4"> Receitas Originais</h3>
+            <p className="mt-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book.
+            </p>
+          </div>
+          <div className="box p-5 w-[33%] text-center">
+            <Image src="/quality-food.png" width={100} height={100} alt="icon" className="m-auto"/>
+            <h3 className="mt-4">Comida de Qualidade</h3>
+            <p className="mt-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book.
+            </p>
+          </div>
+          <div className="box p-5 w-[33%] text-center">
+            <Image src="/fast-delivery.png" width={100} height={100} alt="icon" className="m-auto"/>
+            <h3 className="mt-4">Entrega Mais Rápida </h3>
+            <p className="mt-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book.
+            </p>
+          </div>
+
         </div>
       </section>
 

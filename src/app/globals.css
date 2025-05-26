@@ -11,8 +11,23 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+/* Cores padrões*/
 .text-y{
     color:#f7be27 !important;
+}
+
+.text-brown{
+    color:#642f21;
+}
+
+p{
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+}
+
+.bg-y{
+    background-color: #f7be27 !important;
 }
 
 .container{
@@ -190,6 +205,26 @@ header .btn-border{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+.btn-red{
+    background-color: #e3000e !important;
+    border: 1px solid #e3000e !important;
+    color:#fff !important;
+}
+
+.btn-red:hover{
+    background: transparent !important;
+    color:#e3000e !important;
+}
+
+.btn-lg{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.no-radius{
+    border-radius: 0px !important;
+}
+
 .swiper-button-next, .swiper-button-prev{
     opacity: 0;
     transition: all 0.3s;
@@ -229,10 +264,17 @@ header .btn-border{
 .product_item_v1 .imgWrapper img{
     width: 100% !important;
     height: auto !important;
+    transition: all 0.3s;
 }
 
 .product_item_v1 .imgWrapper{
     border: 1px solid rgba(0, 0, 0 , 0.10);
+    overflow: hidden;
+}
+
+.product_item_v1 .imgWrapper:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .product_item_v1 .imgWrapper .Mui-checked{
@@ -266,7 +308,24 @@ header .btn-border{
 .product_item_v1 .info button svg{
     font-size: 20px !important;
     margin-right: 5px !important;
+}
 
+/* Sessão 2 */
+.section2{
+    padding: 30px 0px;
+    background: url(../../public/about-2.jpg) no-repeat bottom center;
+    background-size: contain !important;
+    height:600px;
+}
+
+.section2 h2{ 
+    font-size: 50px; font-weight: 600;
+    background-size: contain !important;
+}
+
+.section3 .box h3{
+    font-size: 25px !important;
+    font-weight: bold;
 }
 
 

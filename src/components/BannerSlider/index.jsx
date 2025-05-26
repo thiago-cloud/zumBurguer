@@ -43,7 +43,7 @@ export const BannerSlider = () => {
                                     Crispy Chicken
                                 </h2>
                                 <h3>
-                                    <span className="text-white/80">Open Daily: </span><span className="text-yellow-500">11:30PM - 8:30PM</span>
+                                    <span className="text-white/80">Aberto: </span><span className="text-yellow-500">11:30 - 23:30</span>
                                 </h3>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ export const BannerSlider = () => {
                                     Double Burger
                                 </h2>
                                 <h3>
-                                    <span className="text-white/80">Open Daily: </span><span className="text-yellow-500">11:30PM - 8:30PM</span>
+                                    <span className="text-white/80">Aberto: </span><span className="text-yellow-500">11:30 - 23:30</span>
                                 </h3>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ export const BannerSlider = () => {
                                     Chicken Fingers
                                 </h2>
                                 <h3>
-                                    <span className="text-white/80">Open Daily: </span><span className="text-yellow-500">11:30PM - 8:30PM</span>
+                                    <span className="text-white/80">Aberto: </span><span className="text-yellow-500">11:30 - 23:30</span>
                                 </h3>
                             </div>
                         </div>
