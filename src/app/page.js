@@ -5,6 +5,7 @@ import { ProductItemV1 } from '@/components/Product_Item_V1';
 import Image from "next/image";
 import { useState } from 'react';
 import Button from '@mui/material/Button';
+import { ProductItemV2 } from "@/components/Product_item_V2";
 
 export default function Home(){
 
@@ -99,7 +100,31 @@ export default function Home(){
               specimen book.
             </p>
           </div>
+        </div>
+      </section>
 
+      <section className="py-5">
+        <div className="container">
+          <h2 className="text-center hd text-red"> 
+            Nosso Hambúrguer Maluco
+          </h2>
+          <p className="text-center mt-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's <br/> standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it <br/> to make a type
+            specimen book.
+          </p>
+          
+          <div className="productList grid grid-cols-4 gap-5 mt-4">
+            <ProductItemV2/>
+            <ProductItemV2/>
+            <ProductItemV2/>
+            <ProductItemV2/>
+            <ProductItemV2/>
+            <ProductItemV2/>
+            <ProductItemV2/>
+            <ProductItemV2/>
+          </div>
         </div>
       </section>
 
